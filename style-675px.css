@@ -5,13 +5,25 @@
         color: var(--texto-cor);
     }
 
-    .barra-navegacao a {
+    .barra-navegacao{
         display: none;
-        font-size: 1.7rem;
-        color: var(--principal-cor);
-        margin-left: 6rem;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding:  1rem 3%;
+        background-color: var(--fundo-cor);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+    }
+
+    .barra-navegacao a {
+        display: block;
+        font-size: 2rem;
+        color: var(--texto-cor);
+        margin: 3rem;
         transition: .3s;
-    
+        background-color: var(--fundo-cor);
     }
 
     #menu-icone {
