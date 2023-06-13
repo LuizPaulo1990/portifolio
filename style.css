@@ -374,7 +374,7 @@ span{
     }
 
     .foto-perfil{
-        width: 30vh;
+        width: 29vh;
         height: 50vh;
         border-radius: 10%;
         box-shadow: 3px 1px 15px var(--principal-cor);
@@ -590,9 +590,9 @@ span{
     
 }
 
-@media (max-width: 341px){
+@media (max-width: 356px){
     body {
-        max-width: 341px;
+        max-width: 356px;
         background: var(--fundo-cor);
         color: var(--texto-cor);
     }
@@ -608,7 +608,7 @@ span{
 
     #menu-icone {
         display: inline;
-        margin-left: 80px;
+        margin-left:80px;
         font-size: 5.5rem;
         color: var(--texto-cor);
     }
