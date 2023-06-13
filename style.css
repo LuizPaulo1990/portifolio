@@ -288,3 +288,236 @@ span{
 .contato p{
     font-size: 2rem;
 }
+
+@media (max-width: 760px){
+
+    body {
+        max-width: 760px;
+        background: var(--fundo-cor);
+        color: var(--texto-cor);
+    }
+
+    .barra-navegacao a {
+        display: none;
+        font-size: 1.7rem;
+        color: var(--principal-cor);
+        margin-left: 6rem;
+        transition: .3s;
+    
+    }
+
+    #menu-icone {
+        display: inline;
+        margin-left: 350px;
+        font-size: 5.5rem;
+        color: var(--texto-cor);
+    }
+}
+
+@media (max-width: 745px){
+
+    body {
+        max-width: 745px;
+        background: var(--fundo-cor);
+        color: var(--texto-cor);
+    }
+
+    .barra-navegacao a {
+        display: none;
+        font-size: 1.7rem;
+        color: var(--principal-cor);
+        margin-left: 6rem;
+        transition: .3s;
+    
+    }
+
+    #menu-icone {
+        display: inline;
+        margin-left: 350px;
+        font-size: 5.5rem;
+        color: var(--texto-cor);
+    }
+
+    .inicio-conteudo{
+        width: 50%;
+        margin-right: 40px;
+    }
+
+    .inicio-conteudo h3{
+        font-size: 3.2rem;
+        font-weight: 700;
+    
+    }
+    
+    .inicio-conteudo h1{
+        font-size: 5.5rem;
+        font-weight: 700;
+        line-height: 1.3rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    
+    
+}
+
+@media (max-width: 705px){
+    
+    .inicio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .inicio-conteudo{
+        width: 50%;
+        margin-right: 40px;
+    }
+    .inicio-conteudo h3{
+        font-size: 3.2rem;
+        font-weight: 700;
+    
+    }
+    
+    span{
+        color: var(--principal-cor);
+    }
+    .inicio-conteudo h1{
+        font-size: 5.3rem;
+        font-weight: 700;
+        line-height: 1.3rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .inicio-conteudo p{
+        font-size: 1.6rem;
+    }
+    
+    .midia-social a{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 4rem;
+        height: 4rem;
+        background: transparent;
+        border: .2rem solid var(--principal-cor);
+        border-radius: 50%;
+        font-size: 2rem;
+        color: var(--principal-cor);
+        margin: 3rem 1.5rem 3rem 0;
+        transition: .5s ease;
+    }
+    
+}
+
+@media (max-width: 675px){
+    body {
+        max-width: 675px;
+        background: var(--fundo-cor);
+        color: var(--texto-cor);
+    }
+
+    .barra-navegacao a {
+        display: none;
+        font-size: 1.7rem;
+        color: var(--principal-cor);
+        margin-left: 6rem;
+        transition: .3s;
+    
+    }
+
+    #menu-icone {
+        display: inline;
+        margin-left: 250px;
+        font-size: 5.5rem;
+        color: var(--texto-cor);
+    }
+
+    .inicio-conteudo{
+        width: 86%;
+        margin-right: 40px;
+    }
+
+    .inicio-conteudo h3{
+        font-size: 3.2rem;
+        font-weight: 700;
+    
+    }
+    
+    .inicio-conteudo h1{
+        font-size: 5.5rem;
+        font-weight: 700;
+        line-height: 1.3rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    
+    
+}
+
+@media (max-width: 575px){
+    body {
+        max-width: 575px;
+        background: var(--fundo-cor);
+        color: var(--texto-cor);
+    }
+
+    .barra-navegacao a {
+        display: none;
+        font-size: 1.7rem;
+        color: var(--principal-cor);
+        margin-left: 6rem;
+        transition: .3s;
+    
+    }
+
+    #menu-icone {
+        display: inline;
+        margin-left: 100px;
+        font-size: 5.5rem;
+        color: var(--texto-cor);
+    }
+
+    .inicio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .inicio-conteudo{
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .inicio-conteudo h3{
+        font-size: 3.2rem;
+        font-weight: 700;
+    
+    }
+    
+    .inicio-conteudo h1{
+        font-size: 5.5rem;
+        font-weight: 700;
+        line-height: 1.3rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .inicio-img{
+        width: 100%;
+    }
+    
+    .foto-perfil{
+        width: 300px;
+        height: 70vh;
+        border-radius: 10%;
+        box-shadow: 3px 1px 15px var(--principal-cor);
+        margin-top: 40px;
+    }
+
+    
+}
