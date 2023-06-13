@@ -1,0 +1,53 @@
+@media (max-width: 705px){
+    
+    .inicio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .inicio-conteudo{
+        width: 50%;
+        margin-right: 40px;
+    }
+    .inicio-conteudo h3{
+        font-size: 3.2rem;
+        font-weight: 700;
+    
+    }
+    
+    .inicio-conteudo h1{
+        font-size: 5.3rem;
+        font-weight: 700;
+        line-height: 1.3rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .inicio-conteudo p{
+        font-size: 1.6rem;
+    }
+    
+    .foto-perfil{
+        width: 26vh;
+        height: 40vh;
+        border-radius: 10%;
+        box-shadow: 3px 1px 15px var(--principal-cor);
+    }
+    
+    .midia-social a{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 4rem;
+        height: 4rem;
+        background: transparent;
+        border: .2rem solid var(--principal-cor);
+        border-radius: 50%;
+        font-size: 2rem;
+        color: var(--principal-cor);
+        margin: 3rem 1.5rem 3rem 0;
+        transition: .5s ease;
+    }
+    
+}

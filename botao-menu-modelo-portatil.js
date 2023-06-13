@@ -13,12 +13,6 @@ iconeMenu.addEventListener('click',() => {
     iconeFechaMenu.style.display = 'inline';
 })
 
-iconeBarraNavegação.addEventListener('click',() =>{
-    iconeBarraNavegação.style.display='none';
-    iconeFechaMenu.style.display = 'none';
-    iconeMenu.style.display ='inline';
-
-})
 
 iconeFechaMenu.addEventListener('click',() =>{
     iconeBarraNavegação.style.display='none';
