@@ -8,9 +8,9 @@ ScrollReveal({
     delay: 200
 });
 
-ScrollReveal().reveal('.inicio-conteudo, .cabecalho, .P2, .H1, .H2, .H3, .H4', { origin: 'top' });
+ScrollReveal().reveal('.inicio-conteudo, .cabecalho, .P2', { origin: 'top' });
 
-ScrollReveal().reveal('.H5, .P5', { origin: 'bottom' });
+ScrollReveal().reveal('.P5', { origin: 'bottom' });
 
 ScrollReveal().reveal('.texto-contato1, .P1, .P4', { origin: 'left' });
 
