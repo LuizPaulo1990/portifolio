@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style-771px.css">
     <link rel="stylesheet" href="style-751px.css">
@@ -35,7 +36,7 @@
             <div class="inicio-conteudo">
                 <h3>Olá, me chamo</h3>
                 <h1>Luiz Paulo</h1>
-                <h3>E eu sou um <span>Desenvolvedor Front-End</span>
+                <h3>E eu sou um <span id="multiple-text"></span>
                 </h3>
                 <p>Morador do Rio de Janeiro, comecei a estudar programação no final de 2022, aonde comecei a me apaixonar por programação, a ver sites e programas criando vida.<br><br>Sempre fui muito bom em trabalhar em equipe, e aprender sozinho,como foi exemplo do Inglês, que aprendi quando trabalhei em hotelaria e tinha que conversar com muitas pessoas de fora do pais.<br><br>Sempre gostei de jogos e quebra cabeças, sentir aquela sensação de superar o meu limite, mesmo diante das adversidades, e me sinto apto para os próximos desafios que irei enfrentar nessa carreira.
 
@@ -50,7 +51,7 @@
                 <a href="#" class="butao">Baixar CV</a>
             </div>
             </div>
-            <div class="Inicio-img">
+            <div class="Inicio-img floatImage">
                 <img src="img/lp2.jfif" alt="luiz" class="foto-perfil">
             </div>
         </section>
@@ -58,22 +59,22 @@
             <h2 class="cabecalho">Minhas <span>Habilidades</span></h2>
 
             <div class="caixa-habilidade">
-                <div class="habilidades">
+                <div class="habilidades H1">
                     <i class='bx bxl-html5' ></i>
                     <h3>HTML</h3>
                 </div>
-                <div class="habilidades">
+                <div class="habilidades H2">
                     <i class='bx bxl-css3'></i>
                     <h3>CSS</h3> 
                 </div>
-                <div class="habilidades">
+                <div class="habilidades H3">
                     <i class='bx bxl-javascript'></i>
                     <h3>JavaScript</h3>
                 </div>
-                <div class="habilidades">
+                <div class="habilidades H4">
                     <h3>Orientação de objeto</h3>
                 </div>
-                <div class="habilidades">
+                <div class="habilidades H5">
                     <h3>API</h3>
                 </div>
             </div>
@@ -82,7 +83,7 @@
             <h2 class="cabecalho"><span>Projetos</span></h2>
 
             <div class="projetos-container">
-                <div class="projetos-caixa">
+                <div class="projetos-caixa P1">
                     <img src="img/projetos.jpg" alt="">
                     <div class="projeto-descricao">
                         <h4>projeto 1</h4>
@@ -90,7 +91,7 @@
                         <a href="#"><i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
-                <div class="projetos-caixa">
+                <div class="projetos-caixa P2">
                     <img src="img/projetos.jpg" alt="">
                     <div class="projeto-descricao">
                         <h4>projeto 2</h4>
@@ -98,7 +99,7 @@
                         <a href="#"><i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
-                <div class="projetos-caixa">
+                <div class="projetos-caixa P3">
                     <img src="img/projetos.jpg" alt="">
                     <div class="projeto-descricao">
                         <h4>projeto 3</h4>
@@ -106,7 +107,7 @@
                         <a href="#"><i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
-                <div class="projetos-caixa">
+                <div class="projetos-caixa P4">
                     <img src="img/projetos.jpg" alt="">
                     <div class="projeto-descricao">
                         <h4>projeto 4</h4>
@@ -114,7 +115,7 @@
                         <a href="#"><i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
-                <div class="projetos-caixa">
+                <div class="projetos-caixa P5">
                     <img src="img/projetos.jpg" alt="">
                     <div class="projeto-descricao">
                         <h4>projeto 5</h4>
@@ -122,7 +123,7 @@
                         <a href="#"><i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
-                <div class="projetos-caixa">
+                <div class="projetos-caixa P6">
                     <img src="img/projetos.jpg" alt="">
                     <div class="projeto-descricao">
                         <h4>projeto 6</h4>
@@ -135,8 +136,8 @@
         </section>
         <section class="contato" id="contato">
             <h2 class="cabecalho"><span>Contato</span></h2>
-            <p>luizpaulodev@gmail.com</p>
-            <p>55(21)95550-2223</p>
+            <p class="texto-contato1">luizpaulodev@gmail.com</p>
+            <p class="texto-contato2">55(21)95550-2223</p>
             
         </section>
     </main>
@@ -148,8 +149,10 @@
             <a href="#inicio"><i class='bx bx-up-arrow-alt'></i></a>
         </div>
     </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="ativa-butao-menu.js"></script>
     <script src="botao-menu-modelo-portatil.js"></script>
+    <script src="efeito-textos.js"></script>
 </body>
 
 </html>
