@@ -45,3 +45,16 @@ function fechaMenu() {
     }
 }
 iconeFechaMenu.addEventListener('click', fechaMenu);
+
+window.addEventListener("resize", ()=>{
+    
+    if(window.innerWidth >= 771){
+        iconeBarraNavegação.style.display = 'block';
+        iconeMenu.style.display = 'none';
+        iconeFechaMenu.style.display = 'none';
+    }else{
+        iconeBarraNavegação.style.display = 'none';
+        iconeMenu.style.display = 'inline';
+        iconeFechaMenu.style.display = 'none';
+    }
+});

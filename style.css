@@ -15,7 +15,7 @@
     --fundo-cor: #1f242d;
     --segundo-fundo-cor: #323946;
     --texto-cor: #fff;
-    --principal-cor: #0ef;
+    --principal-cor: #00eeff;
 }
 
 html {
@@ -150,7 +150,7 @@ span{
     border-radius: 50%;
     font-size: 2rem;
     color: var(--principal-cor);
-    margin: 3rem 5rem 3rem 0;
+    margin: 3rem 1.5rem 3rem 0;
     transition: .5s ease;
 }
 
@@ -197,21 +197,27 @@ span{
     background:transparent;
     padding: 3rem 2rem 4rem;
     text-align: center;
-    transition: 1s ease;
+    transition: 1s ease!important;
 }
 
 .habilidades:hover {
     text-shadow: 1px 1px 10px var(--principal-cor);
     color: var(--principal-cor);
-    transform: scale(1.4);
+    transform: scale(1.4)!important;
     
 }
+
+
 
 .habilidades i {
     font-size: 7rem;
     color: var(--principal-cor);
-
 }
+
+.imagem-habilidades{
+    width: 6.7rem;
+}
+
 
 .habilidades h3{
     font-size: 2.6rem;
