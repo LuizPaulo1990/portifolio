@@ -14,24 +14,32 @@
     <link rel="stylesheet" href="style-675px.css">
     <link rel="stylesheet" href="style-575px.css">
     <link rel="stylesheet" href="style-356px.css">
+    <link rel="stylesheet" href="tema-claro.css">
     <title>Portifolio</title>
 </head>
 
 <body>
-    <header>
+    <header id="cabecalho-pagina" class="header-pagina">
         <a href="#" class="logo">Portfólio</a>
 
         <i class='bx bx-menu' id="menu-icone"></i>
         <i class='bx bx-x' id="butao-fecha-menu"></i>
 
         <nav class="barra-navegacao">
-            <a href="#inicio">Inicio</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#projetos">Projetos</a>
-            <a href="#contato">Contato</a>
+            <a href="#inicio" class="menus">Inicio</a>
+            <a href="#habilidades" class="menus">Habilidades</a>
+            <a href="#projetos" class="menus">Projetos</a>
+            <a href="#contato" class="menus">Contato</a>
+            <div class="botao-tema-portatil">
+                <input type="checkbox" name="checkbox" id="checkbox-portatil">
+                <label class="label" for="checkbox-portatil">
+                    <i class='bx bxs-sun icone-sol'></i>
+                    <i class='bx bxs-moon icone-lua'></i>
+                    <div class="bola"></div>
+                </label>
         </nav>
-        <div class="botao-muda-tema">
-            <input type="checkbox" name="checkbox" class="checkbox">
+        <div class="botao-tema">
+            <input type="checkbox" name="checkbox" id="checkbox">
             <label class="label" for="checkbox">
                 <i class='bx bxs-sun icone-sol'></i>
                 <i class='bx bxs-moon icone-lua'></i>
@@ -42,15 +50,20 @@
     <main>
         <section class="inicio" id="inicio">
             <div class="inicio-conteudo">
-                <h3>Olá, me chamo</h3>
-                <h1>Luiz Paulo</h1>
-                <h3>E eu sou um <span id="multiple-text">Desenvolvedor Frontend</span>
-                </h3>
-                <p>Morador do Rio de Janeiro, comecei a estudar programação no final de 2022, aonde comecei a me apaixonar por programação, ao ver sites e programas criando vida.<br><br>Sempre fui muito bom em trabalhar em equipe, e aprender sozinho,como foi exemplo do Inglês, que aprendi quando trabalhei em hotelaria e tinha que conversar com muitas pessoas de fora do pais.<br><br>Sempre gostei de jogos e quebra cabeças, sentir aquela sensação de superar o meu limite, mesmo diante das adversidades, e me sinto apto para os próximos desafios que irei enfrentar nessa carreira.
-
-                </p>
+                    <h3>Olá, me chamo</h3>
+                    <h1>Luiz Paulo</h1>
+                    <h3>E eu sou um</h3>
+                    <h3><span id="multiple-text"></span></h3>
+                    </h3>
+                    <p>Morador do Rio de Janeiro, comecei a estudar programação no final de 2022, aonde comecei a me
+                    apaixonar por programação, ao ver sites e programas criando vida.<br><br>Sempre fui muito bom em
+                    trabalhar em equipe, e aprender sozinho,como foi exemplo do Inglês, que aprendi quando trabalhei em
+                    hotelaria e tinha que conversar com muitas pessoas de fora do pais.<br><br>Sempre gostei de jogos e
+                    quebra cabeças, sentir aquela sensação de superar o meu limite, mesmo diante das adversidades, e me
+                    sinto apto para os próximos desafios que irei enfrentar nessa carreira.
+                    </p>
                 <div class="midia-social">
-                    
+
                     <a href="https://github.com/LuizPaulo1990" target="_blank"><i class='bx bxl-github'></i></a>
                     <a href="https://www.linkedin.com/in/luiz-paulo-martins-dos-santos-696782249/" target="_blank"><i
                             class='bx bxl-linkedin-square'></i></a>
@@ -68,12 +81,12 @@
 
             <div class="caixa-habilidade">
                 <div class="habilidades habilidade1">
-                    <i class='bx bxl-html5' ></i>
+                    <i class='bx bxl-html5'></i>
                     <h3>HTML</h3>
                 </div>
                 <div class="habilidades habilidade2">
                     <i class='bx bxl-css3'></i>
-                    <h3>CSS</h3> 
+                    <h3>CSS</h3>
                 </div>
                 <div class="habilidades habilidade3">
                     <i class='bx bxl-javascript'></i>
@@ -155,8 +168,8 @@
         <section class="contato" id="contato">
             <h2 class="cabecalho"><span>Contato</span></h2>
             <p class="texto-contato1">luizpaulodev@gmail.com</p>
-            <p class="texto-contato2">55(21)95550-2223</p>
-            
+            <p class="texto-contato2">55(21)97550-2223</p>
+
         </section>
     </main>
     <footer class="rodape">
@@ -168,7 +181,7 @@
         </div>
     </footer>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script src="ativa-butao-menu.js"></script>
+    <script src="ativa-botao-menu.js"></script>
     <script src="botao-menu-modelo-portatil.js"></script>
     <script src="efeito-textos.js"></script>
     <script src="muda-tema-escuro-ou-branco.js"></script>

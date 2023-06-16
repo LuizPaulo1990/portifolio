@@ -33,7 +33,7 @@ section{
     padding: 10rem 9% 2rem;
 }
 
-header{
+.header-pagina{
     position: fixed;
     top: 0;
     left: 0;
@@ -51,10 +51,10 @@ header{
    color: var(--texto-cor);
    font-weight: 600;
    cursor: default;
-   text-shadow: 1px 1px 5px var(--principal-cor); 
+   text-shadow: 1px 1px 5px white; 
 }
 
-.barra-navegacao a {
+.menus{
     font-size: 1.7rem;
     color: var(--texto-cor);
     margin-left: 4rem;
@@ -63,12 +63,12 @@ header{
 
 .barra-navegacao a:hover,
 .barra-navegacao a.ativa {
-    color: var(--principal-cor);
+    font-size: 1.9rem;
+    color: white;
+    text-shadow: 1px 1px 5px white; 
 }
 
-.barra-navegacao a.ativa{
-    color: var(--principal-cor);
-}
+
 
 #menu-icone {
     font-size: 3.6rem;
@@ -81,8 +81,22 @@ header{
     font-size: 3.6rem;
 }
 
-.checkbox{
-    opacity: 100;
+.botao-tema{
+    position: absolute;
+    top: 2px;
+    right: 12px
+}
+
+.botao-tema-portatil{
+    display: none;
+}
+
+#checkbox{
+    opacity: 0;
+}
+
+#checkbox-portatil{
+    opacity: 0;
 }
 
 .label{
@@ -92,12 +106,12 @@ header{
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 
     padding: 5px;
     position: relative;
-    height: 25px;
-    width: 60px;
+    height: 20px;
+    width: 40px; 
 
 }
 
@@ -106,17 +120,19 @@ header{
     border-radius: 50%;
     position: absolute;
     left: 1px;
-    height: 20px;
+    height: 18px;
     width: 20px;
 
     transform: translateX(0px);
     transition:  transform .2s linear;
 }
 
-.checkbox:hover{
-    background-color: red;
-    opacity: 100;
-    /* transform: translateX(24px); */
+#checkbox:checked + .label .bola{
+    transform: translateX(18px);
+}
+
+#checkbox-portatil:checked + .label .bola{
+    transform: translateX(18px);
 }
 
 .icone-lua{
@@ -151,7 +167,7 @@ header{
     width: 35vh;
     height: 50vh;
     border-radius: 10%;
-    box-shadow: 3px 1px 15px var(--principal-cor);
+    box-shadow: 3px 1px 15px white;
 }
 
 .inicio{
@@ -171,14 +187,24 @@ header{
 }
 
 span{
-    color: var(--principal-cor);
+    color: #2C497F;
 }
+
+.inicio-conteudo-titulos{
+    margin-bottom: 50px;
+}
+
 .inicio-conteudo h1{
-    font-size: 5.3rem;
+    font-size: 5rem;
     font-weight: 700;
     line-height: 1.3rem;
     margin-top: 20px;
     margin-bottom: 20px;
+    
+}
+
+.conteudo-inicio-texto{
+    margin-top: 30px;
 }
 
 .inicio-conteudo p{
@@ -192,26 +218,26 @@ span{
     width: 4rem;
     height: 4rem;
     background: transparent;
-    border: .2rem solid var(--principal-cor);
+    border: .2rem solid #2C497F;
     border-radius: 50%;
     font-size: 2rem;
-    color: var(--principal-cor);
+    color: #2C497F;
     margin: 3rem 1.5rem 3rem 0;
     transition: .5s ease;
 }
 
 .midia-social a:hover{
-    background: var(--principal-cor);
-    color: var(--segundo-fundo-cor);
-    box-shadow: 0 0 1rem var(--principal-cor);
+    background: #2C497F;
+    color: white;
+    box-shadow: 0 0 1rem #2C497F;
 }
 
 .butao{
     display: inline-block;
     padding: 1rem 2.8rem;
-    background: var(--principal-cor);
+    background: #2C497F;
     border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--principal-cor);
+    box-shadow: 0 0 1rem #2C497F;
     font-size: 1.6rem;
     color: var(--segundo-fundo-cor);
     letter-spacing: .1rem;
@@ -222,6 +248,7 @@ span{
 
 .butao:hover{
     box-shadow: none;
+    color: white;
 }
 
 .cabecalho{
@@ -247,8 +274,8 @@ span{
 }
 
 .habilidades:hover {
-    text-shadow: 1px 1px 10px var(--principal-cor);
-    color: var(--principal-cor);
+    text-shadow: 1px 1px 10px #2C497F;
+    color: #2C497F;
     transform: scale(1.4)!important;
     
 }
@@ -257,7 +284,7 @@ span{
 
 .habilidades i {
     font-size: 7rem;
-    color: var(--principal-cor);
+    color: #2C497F;
 }
 
 .imagem-habilidades{
@@ -311,7 +338,7 @@ span{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, .1), var(--principal-cor));
+    background: linear-gradient(rgba(0, 0, 0, .1), #2C497F);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -378,7 +405,8 @@ span{
 
 
 .rodape-texto p{
-   font-size: 1.6rem; 
+   font-size: 1.6rem;
+   color: white;
 }
 
 .rodape-icone a{
@@ -386,17 +414,18 @@ span{
     justify-content: center;
     align-items: center;
     padding: .8rem;
-    background-color: var(--principal-cor);
+    background-color: #2C497F;
+    box-shadow: 0 0 1rem #2C497F;
     border-radius: .8rem;
     transition: .5s ease;
 }
 
 .rodape-icone a:hover{
-    box-shadow: 0 0 1rem var(--principal-cor);
+    box-shadow: none;
 }
 
 .rodape-icone a i {
     font-size: 2.4rem;
-    color: var(--segundo-fundo-cor);
+    color: white;
     
 }

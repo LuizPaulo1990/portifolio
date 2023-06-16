@@ -10,21 +10,21 @@ ScrollReveal({
 
 ScrollReveal().reveal('.inicio-conteudo, .cabecalho, .P2', { origin: 'top' });
 
-ScrollReveal().reveal('.P5, .habilidade5', { origin: 'bottom' });
+ScrollReveal().reveal('.P5, .habilidade5, .habilidade7', { origin: 'bottom' });
 
 ScrollReveal().reveal('.texto-contato1, .P1, .P4, .habilidade1, .habilidade3', { origin: 'left' });
 
-ScrollReveal().reveal('.texto-contato2, .P3, .P6, .habilidade2, .habilidade4', { origin: 'right' });
+ScrollReveal().reveal('.texto-contato2, .P3, .P6, .habilidade2, .habilidade4, .habilidade6', { origin: 'right' });
 
 
 
 
 /*============= efeito de escrever e apagar o texto selecionado=====================*/
 
-// const typed = new Typed('#multiple-text', {
-//     strings: ['Desenvolvedor Frontend'],
-//     typeSpeed: 100,
-//     backSpeed: 100,
-//     backDelay: 1000,
-//     loop: true
-// })
+const typed = new Typed('#multiple-text', {
+    strings: ['Dev Frontend'],
+    typeSpeed: 200,
+    backSpeed: 200,
+    backDelay: 1000,
+    loop: true
+})

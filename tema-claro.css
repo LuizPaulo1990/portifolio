@@ -1,0 +1,136 @@
+  .header-claro{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background-color: #2C497F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.main-tema-claro{
+    background-color: #EAFFFD;
+}
+
+/* h1{
+    color: black;
+} */
+
+/* h2{
+    color: black;
+} */
+
+/* h3{
+    color: black;
+}  */
+ 
+/* span{
+    color: #2C497F;
+} */
+
+/* p{
+    color: #40434E;
+} */
+
+/* .midia-social a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid #2C497F;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #2C497F;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
+} */
+
+/* .midia-social a:hover{
+    background: #2C497F;
+    color: white;
+    box-shadow: 0 0 1rem #2C497F;
+}  */
+
+ /* .butao{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: #2C497F;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem #2C497F;
+    font-size: 1.6rem;
+    color: white;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: 1s ease;
+
+} */
+
+
+
+
+
+
+/* .projetos{
+    background: #EAFFFD;
+} */
+
+
+/* .rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background-color: #2C497F;
+} */
+
+/* .rodape-icone a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background-color: #EAFFFD;
+    border-radius: .8rem;
+    transition: .5s ease;
+} */
+
+/* .rodape-icone a:hover{
+    box-shadow: 0 0 1rem #2C497F;
+} */
+
+/* .rodape-icone a i {
+    font-size: 2.4rem;
+    color: #2C497F;
+    
+}  */
+
+@media (max-width: 771px){
+     .barra-navegacao-tema-claro{
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding:  1rem 3%;
+        background-color: #2C497F;
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+    } 
+
+    .menus-tema-claro {
+        display: block;
+        font-size: 2rem;
+        color: var(--texto-cor);
+        margin: 3rem;
+        transition: .3s;
+        background-color: #2C497F;
+    }
+}
+
+
+

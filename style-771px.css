@@ -34,6 +34,18 @@
         color: var(--texto-cor);
     }
 
+    .botao-tema{
+        display: none;
+    }
+
+    .botao-tema-portatil{
+        display: inline;
+        position: absolute;
+        right: 50px;
+        top: 10px;
+
+    }
+
     .foto-perfil{
         width: 33vh;
         height: 50vh;
@@ -58,7 +70,7 @@
     }
     
     .inicio-conteudo h1{
-        font-size: 5.3rem;
+        font-size: 5rem;
         font-weight: 700;
         line-height: 1.3rem;
         margin-top: 20px;
