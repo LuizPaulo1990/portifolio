@@ -294,6 +294,12 @@ span{
 
 .habilidades h3{
     font-size: 2.6rem;
+    display: none;
+    color: #2C497F;
+}
+
+.habilidades:hover h3{
+    display: block;  
 }
 
 .projetos{
